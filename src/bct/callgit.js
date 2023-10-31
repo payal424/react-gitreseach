@@ -21,7 +21,7 @@ const Callgit = () => {
     return(<div>
         hellow!
         <div>
-            <label>enter user name: </label>
+            <label>enter userId: </label>
             <input onChange={changeHandler}></input>
             <div>
                 <button disabled = {!isValid} onClick={clickHandler}>submit</button>
