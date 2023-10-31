@@ -19,7 +19,7 @@ const Callgit = () => {
     }
     console.log(state)
     return(<div>
-        hellow!
+        hellow! Tish is for practices
         <div>
             <label>enter userId: </label>
             <input onChange={changeHandler}></input>
